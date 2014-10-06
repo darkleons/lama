@@ -1735,11 +1735,18 @@ td {
     box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
     z-index:1200;
 }
+.pos .popup .textbox { 
+    border: 3px groove #FFA5A5; 
+    outline:0; 
+    height:25px; 
+   width: 275px; 
+  } 
 .pos .popup .comment{
     font-weight: normal;
     font-size: 18px;
     margin: 0px 16px;
 }
+
 .pos .popup .comment.traceback {
     height: 264px;
     overflow: auto;

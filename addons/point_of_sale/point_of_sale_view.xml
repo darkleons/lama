@@ -574,6 +574,20 @@
               </p>
             </field>
         </record>
+
+        <record model="ir.ui.view" id="view_pos_pass_form">
+            <field name="name">pos.pass.form.view</field>
+            <field name="model">pos.password</field>
+            <field name="arch" type="xml">
+                <form string="Discount for POS">
+ <group col="2">
+		<field name="udiscount"/>
+		<field name="password" password="True"/>
+</group>
+		</form>
+		</field>
+	</record>
+
         <record id="action_pos_pass_form" model="ir.actions.act_window">
             <field name="name">Pass of Discount</field>
             <field name="res_model">pos.password</field>
